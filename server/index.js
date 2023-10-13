@@ -12,7 +12,7 @@ app.use(cors({
 }))
 app.use(express.json())
 
-mongoose.connect("mongodb://127.0.0.1:27017/crudOperation")
+mongoose.connect("mongodb+srv://dharvish1234:odTVhFPYzOayxzuc@cluster0.ehrnted.mongodb.net/test?retryWrites=true&w=majority")
 
 app.get('/',(req,res)=> {
     UserModel.find({})
