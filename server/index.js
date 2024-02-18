@@ -6,7 +6,7 @@ const PORT=5000
 const app=express()
 
 app.use(cors({
-    origin:["http://localhost:3000/"],
+    origin:["https://vercel.com/ram-dharvishs-projects/crud-app-mern/CfsioEkxPDQDqUvRJXEVVPSnSrVw"],
     method:["GET","POST","PUT","DELETE"],
     credentials:true
 }))
